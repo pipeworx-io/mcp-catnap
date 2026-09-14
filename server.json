@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/catnap",
+  "title": "Catnap",
+  "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/catnap",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-catnap",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/catnap/mcp"
+    }
+  ]
+}
