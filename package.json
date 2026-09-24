@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-catnap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-c4a3d8733cb17e60eb59d90cd986ca17ac93424d95806e8e81fe5ba506c0e7d9",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
