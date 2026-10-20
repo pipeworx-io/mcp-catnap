@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-catnap",
-  "version": "0.1.2",
-  "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the",
+  "version": "0.1.3",
+  "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the LANL HIV Molecular Immunology Database. Task #1409 — approved as a SMALL PAIR despite a weak demand case, because the gap is total: search_packs returns zero hits for 'epitope' or 'HIV antibody neutralization' today.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-148e871c149461dbb0c7499cbf7093557fdd491cfe1af3e5e5a810015d3a1ba9",
-    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
+    "sourceHash": "v1-7d96d4725fe21774b795647214e8c2d31a2da1ca61d1a6b1aead91792ac9d44f",
+    "sourceCommit": "5d8d3a58a457b8464c117515d81b8b6ecb53fdfb"
   }
 }
