@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-catnap",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the LANL HIV Molecular Immunology Database. Task #1409 — approved as a SMALL PAIR despite a weak demand case, because the gap is total: search_packs returns zero hits for 'epitope' or 'HIV antibody neutralization' today.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-catnap": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "catnap"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-catnap.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/catnap",
   "pipeworx": {
-    "sourceHash": "v1-ebe5e13d37aacc4f654d4541bf7ae420b0409417909275547ae2ec62f025967e",
-    "sourceCommit": "70a4e816a9195016cd4af92dca2019485d4c3865"
+    "mode": "gateway",
+    "slug": "catnap",
+    "gatewaySlug": "catnap",
+    "sourceHash": "v1-4b19dfb4fe5b2738ebb2b0ccd0cb68c6a683e7434d4d8ff0260819e180fc5fe4",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
