@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-catnap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CATNAP (Compile, Analyze, and Tally Neutralizing Antibody Panels) + the LANL HIV Molecular Immunology Database. Task #1409 — approved as a SMALL PAIR despite a weak demand case, because the gap is total: search_packs returns zero hits for 'epitope' or 'HIV antibody neutralization' today.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "catnap",
     "gatewaySlug": "catnap",
-    "sourceHash": "v1-4b19dfb4fe5b2738ebb2b0ccd0cb68c6a683e7434d4d8ff0260819e180fc5fe4",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-3ac51aeb35166cf4c1920c0aba4f93bb6b6844f11e815d7890470fdc47b6880e",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
